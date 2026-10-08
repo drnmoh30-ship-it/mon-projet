@@ -1,0 +1,60 @@
+.formateur-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 26px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.formateur-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 25px -5px rgba(16, 185, 129, 0.15);
+  border-color: #86efac;
+}
+
+.formateur-avatar {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 auto 15px;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+}
+
+.formateur-card h3 {
+  font-size: 20px;
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+
+.formateur-specialite {
+  color: #059669;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.formateur-exp {
+  display: inline-block;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.formateur-desc {
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.6;
+}

@@ -1,0 +1,38 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.contact-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 25px 20px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.contact-card:hover {
+  background: #eff6ff;
+  border-color: #93c5fd;
+  transform: translateY(-3px);
+}
+
+.contact-card .icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.contact-card h4 {
+  font-size: 17px;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.contact-card p {
+  color: #64748b;
+  font-size: 14px;
+  margin: 0;
+}

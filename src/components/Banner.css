@@ -1,0 +1,23 @@
+.banner {
+  background: linear-gradient(135deg, #eff6ff 0%, #e0f2fe 100%);
+  border: 1px solid #bfdbfe;
+  border-radius: 16px;
+  text-align: center;
+  padding: 45px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.banner h2 {
+  font-size: 26px;
+  color: #1e3a8a;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.banner p {
+  font-size: 16px;
+  color: #475569;
+  max-width: 700px;
+  margin: 0 auto;
+}

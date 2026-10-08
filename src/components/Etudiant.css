@@ -1,0 +1,50 @@
+.etudiant-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 22px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #8b5cf6;
+}
+
+.etudiant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 25px -5px rgba(139, 92, 246, 0.15);
+  border-color: #c4b5fd;
+}
+
+.etudiant-card h3 {
+  font-size: 20px;
+  color: #1e293b;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.etudiant-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.etudiant-info p {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+.etudiant-info strong {
+  color: #334155;
+}
+
+.etudiant-tag {
+  display: inline-block;
+  background: #f5f3ff;
+  color: #7c3aed;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+}
